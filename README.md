@@ -178,3 +178,16 @@ GRAPHENE = {
     "SCHEMA": "core.schema.schema"
 }
 ```
+
+Requêtes sur GraphiQL (http://127.0.0.1:8000/graphql/)
+```
+{
+  articles {
+    title
+    views
+  }
+}
+```
+
+Résultats :
+![img12](./images/graphql3.png)

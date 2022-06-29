@@ -24,3 +24,6 @@ class Query(graphene.ObjectType):
 
     def resolve_article(root, info, id =None):
         return Article.objects.get(pk=id)
+
+
+
