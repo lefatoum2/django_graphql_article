@@ -14,6 +14,7 @@ Comme vous pouvez le voir, il y a qu'un seul point de terminaison contrairement 
 ## Installation 
 
 ```
+pipenv install
 pipenv shell
 ```
 
