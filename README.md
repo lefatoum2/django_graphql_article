@@ -113,7 +113,7 @@ class CommentOnArticleAdmin(admin.ModelAdmin):
 
 
 ```
-
+## Urls
 core/urls.py : 
 ```py
 from django.contrib import admin
@@ -128,7 +128,7 @@ urlpatterns = [
     path('graphql/', csrf_exempt(GraphQLView.as_view(graphiql=True))), # ajout
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) # ajout
 ```
-
+## Schema
 article/schema.py :
 ```py
 import graphene 
